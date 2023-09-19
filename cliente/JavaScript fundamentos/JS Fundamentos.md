@@ -4,7 +4,7 @@
 
 ## Etiqueta Script
 
-```
+```html
 <body>
     <script>
         alert('Hello World');
