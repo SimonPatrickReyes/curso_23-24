@@ -4,7 +4,7 @@
         alert('Hello World');
     </script>
 </body>
-```html
+html```
 ```
 <script src="/path/to/script.js"> </script>
 ```
