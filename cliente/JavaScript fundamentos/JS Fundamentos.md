@@ -1,3 +1,3 @@
 # Fundamentos
 
-- Etiqueta <script> [e](./etiquetaScript.md)
+- [Etiqueta <script>](./etiquetaScript.md)
