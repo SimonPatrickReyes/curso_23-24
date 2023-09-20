@@ -2,8 +2,8 @@
 
 Indice
 1. Modelos de Programación en Entornos Cliente/Servidor
-   * Investigación de los modelos cliente/servidor más comunes.
-   * Identificación de ejemplos de aplicaciones que utilizan cada modelo.
+   - Investigación de los modelos cliente/servidor más comunes.
+   - Identificación de ejemplos de aplicaciones que utilizan cada modelo.
 3. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
     -Estudio de cómo se ejecuta el código JavaScript en un navegador.
     -Evaluación de las diferencias de compatibilidad entre navegadores.
