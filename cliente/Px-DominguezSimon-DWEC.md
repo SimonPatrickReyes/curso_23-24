@@ -23,9 +23,9 @@ Indice
 ### Investigación de los modelos cliente/servidor más comunes
 Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplicaciones web, estos podemos distinguirlos o clasificarlos por su arquitectura:
    + Arquitectura de una sola página: Todo su contenido se muestra en **una única página y toda esta cargada**, siendo este contenido mostrado parcialmente, conforme el cliente interactúa con la página. Un ejemplo claro de página web única lo tenemos en sitios como portfolios de artistas: https://thinkpixellab.com/
-   + Arquitectura de Renderizado del Lado del Servidor: Estas páginas se caracterizan por estar **renderizadas en un servidor backend** al momento de ser solicitadas por el usuario, reducen el tiempo de procesado porque además estas suelen estar hechas puramente con HTML, CSS y JS.
+   + Arquitectura de Renderizado del Lado del Servidor: Estas páginas se caracterizan por estar **renderizadas en un servidor backend** al momento de ser solicitadas por el usuario, reducen el tiempo de procesado porque además estas suelen estar hechas puramente con HTML, CSS y JS. Para detectar páginas se recomienda desactivar el js, para ver si la página hace uso de todos sus recursos mediante la estructura HTML, yo por ejemplo he encontrado esta página de vuejs.org: _https://vuejs.org/guide/scaling-up/ssr.html_ (por ejemplo la página principal, sin javascript, carece de imágenes que puede obstruir al entendimiento y compresión de la misma).
 
-   + 
+   + Arquitectura de Microservicios: 
 
 
 
