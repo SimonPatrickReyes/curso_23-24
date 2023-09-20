@@ -1,4 +1,4 @@
-#Proyecto 1: Explorando los Fundamentos del Desarrollo Web en Entornos de Cliente#
+# Proyecto 1: Explorando los Fundamentos del Desarrollo Web en Entornos de Cliente
 
 Indice
 1. Modelos de Programación en Entornos Cliente/Servidor
