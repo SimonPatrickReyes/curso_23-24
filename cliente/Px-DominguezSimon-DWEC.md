@@ -34,6 +34,10 @@ Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplica
 ### Identificación de ejemplos de aplicaciones que utilizan cada modelo
 
 
+bibliografia
+-https://kinsta.com/es/blog/arquitectura-aplicaciones-web/
+-https://themeisle.com/blog/one-page-website-examples/#pixel-lab
+
 
 
 ## 2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
