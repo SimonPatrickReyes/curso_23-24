@@ -1,7 +1,7 @@
 # Proyecto 1: Explorando los Fundamentos del Desarrollo Web en Entornos de Cliente
 
 Indice
-1. [Modelos de Programación en Entornos Cliente/Servidor](#1.-modelos-de-programación-en-entornos-cliente/servidor)
+1. [Modelos de Programación en Entornos Cliente/Servidor](#1-modelos-de-programación-en-entornos-cliente/servidor)
    + Investigación de los modelos cliente/servidor más comunes.
    + Identificación de ejemplos de aplicaciones que utilizan cada modelo.
 2. [Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:](#mecanismos-de-ejecución)
