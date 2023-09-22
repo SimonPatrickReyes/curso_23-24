@@ -19,7 +19,7 @@ Indice
 6. [Herramientas de Programación:](#herramientas-de-programación)
    + Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
 
-## 1. Modelos de Programación en Entornos Cliente/Servidor
+# 1. Modelos de Programación en Entornos Cliente/Servidor
 ### Investigación de los modelos cliente/servidor más comunes
 Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplicaciones web, estos podemos distinguirlos o clasificarlos por su arquitectura:
 
@@ -35,7 +35,7 @@ Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplica
    + Arquitectura de Renderizado del Lado del Servidor:  _https://vuejs.org/guide/scaling-up/ssr.html_
    + Arquitectura de Microservicios: Amazon
 
-## 2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
+# 2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
 ### Estudio de cómo se ejecuta el código JavaScript en un navegador.
 Los navegadores son los responsables de interpretar el codigo JavaScript, como este es un lenguaje por turnos, interpreta el código línea a línea, por ejemplo en el caso de Chrome, este tiene un interprete que es "V8". Pues bien, este intérprete se ocupa de transcribir todo el código y mostrarlo por pantalla.
 
@@ -47,7 +47,7 @@ JavaScript es un lenguaje que sigue actualizandose día tras día, los navegador
 
 * Se considera que es un transpilador a aquellos compiladores capaces de traducir código entre dos lenguajes al mismo nivel de abstracción, por ejemplo, una traducción de TypeScript a JavaScript.
 
-## 3. Lenguajes de Programación en Entorno Cliente
+# 3. Lenguajes de Programación en Entorno Cliente
 ### Investigación de lenguajes como JavaScript, TypeScript, y otros.
 
 #### JavaScript
@@ -55,20 +55,14 @@ Probablemente el lenguaje de desarrollo frontend más popular. Esto claro esta e
    * En muchas de las ocasiones, es posible ejecutar el código **directamente en el dispositivo del cliente**, esto facilita su uso, aparte que que es mucho menos aparatoso a la hora de escribir el código.
    * Tiene un gran soporte de bibliotecas externas que hacen de JavaScript una herramienta mucho más extensa.
 
-#### React
-Es una de las librerías de JavaScript más usadas, fue lanzada por Facebook el 29 de mayo de 2013, y a día de hoy, es muy popula en países como EE.UU, China y Reino Unido. Como hemos mencionado anteriormente, este es un lenguaje secuencial, es decir, que se lee línea a línea. Este lenguaje funciona con JSX (JavaScript XML), destaca a la hora de depurar, ya que React por ejemplo ofrece funciones que detectan errores de código y también es posible depurar el código antes de su ejecución. También marcar que React tiene una muy buena compatibilidad con el SEO (Search Engine Optimization).
-
 #### TypeScript
 TypeScript nace, por así decirlo del propio JavaScript, es una extensión de la misma y sirve para redactar código JavaScript de una manera más sencilla y simple. Al igual que JavaScript, este lenguaje es muy usado y su comunidad cada vez aumenta más, esto ofrece también más soporte para la misma.
   
-#### Angular
-Nacido en 2012, de la mano de Misko Hevery y Adam Abrons, Angular es un framework que se suele usar comúnmente para realizar aplicaciones web de una sola página, aunque también destaca su uso para hacer menús dinámicos. Una de las ventajas más notables de este lenguaje, es que hace uso de HTML y JS de una manera muy única, y es que Angular **consigue sincronizar y fusionar estos dos códigos**, por lo que a la hora de escribir código, es mucho más ameno y se ahorra más tiempo.
+#### HTML
+HyperText Markup Language es un lenguaje de marcado y probablemente **una de las piezas indispensables de la programación**. Permite estructurar el contenido de una página web. Este lenguaje es el principal responsable de que los navegadores web interpreten y muestren el contenido de manera organizada y formateada para los usuarios. Es el esqueleto de una página web y trabaja junto con el CSS y el JS para crear páginas web totalmente funcionales.
 
-#### Vue
-Se define en su página como un _framework progresivo para construir interfaces de usuario_, este fue creado por Evan You el febrero de 2014. Este framework es por así decirlo, como una expansión de JavaScript en la que simplifica el código mediante otras herramientas, haciendo de la creación de aplicaciones una tarea más rápida y dinámica.
-
-#### Node
-Ideal para páginas web con bastante servicio back-end y de red del lado del servidor, este basado en el anteriormente mencionado compilador V8.
+#### CSS
+CSS (Cascading Style Sheets) es el responsable del **diseño de una página web**. Como bien hemos dicho, el HTML se encarga de la estructura y el contenido, y es el CSS el que se encarga de hacer que la página web tenga un aspecto intuitivo y de fácil comprensión. Define los colores, fuentes, tamaños de texto y disposición de los elementos de la página.
 
 ### Comparación de sus características y aplicaciones.
 Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de cada uno:
@@ -78,35 +72,24 @@ Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de
    - AJAX para la carga de contenido dinámico (no necesita una recarga por los cambios).
    - Comunicación directa e inmediata entre cliente y servidor.
      
-#### React
-   - Curva de aprendizaje bastante leve.
-   - Alta y rápida capacidad de respuesta.
-   - Migración entre versiones fácil y cómoda.
-
 #### TypeScript
    - Lenguaje intuitivo.
    - Escritura estática.
    - Rápida detección de erroes.
+   
+#### HTML
+   - Lenguaje intuitivo.
+   - Compatibilidad universal.
+   - Accesibilidad (Facilita la creación de páginas web accesibles).
+    
+#### CSS
+   - Selección específica de elementos.
+   - Herencia de elementos.
+   - Creación de animaciones y efectos visuales.
   
-#### Angular
-   - Alta compatibilidad en los navegadores.
-   - Uso de TypeScript, por lo que al igual que el punto anterior, es intuitivo.
-   - Reducción de código.
-
-#### Vue
-   - Poco pesado (18 KB de instalación).
-   - Fácil de usar.
-   - Arquitectura basada en componentes.
-
-#### Node
-   - Facilita el desarrollo rápido de API RESTful.
-   - Permite la gestión simultánea de peticiones.
-   - Facilita la creación de aplicaciones de internet de gran competencia.
-
-
-## 4. Características de los Lenguajes de Script. Ventajas y Desventajas:
+# 4. Características de los Lenguajes de Script. Ventajas y Desventajas:
 ### Análisis de las ventajas y desventajas de la programación en lenguajes de script sobre la programación tradicional.
-#### CMAScript:
+#### ECMAScript:
    - Ventajas: Interfaz sencilla, versátil y sintaxis simple (basada en JS).
    - Desventajas: Poca seguridad y puede que no todos los navegadores interpreten bien el código.
 #### PHP:
@@ -119,12 +102,24 @@ Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de
    - Ventajas: Rápido y flexible, código abierto y multitud de herramientas.
    - Desventajas: La curvade aprendizaje es un poco más elevada que la del resto y de todos los que hemos visto, es el menos conocido, por lo que puede tener poco soporte por la comunidad.
 
-## 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
+# 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
 ### Exploración de tecnologías como CSS y HTML5.
+Como bien hemos mencionado anteriormente HTML5 y CSS van prácticamente de la mano para casi cualquier página web que se preste. Asi que una última vez tengamos en cuenta que:
+
+**HTML5** es el que se encarga de **estructurar y organizar** el contenido de la página web, utilizando etiquetas para definir encabezados, párrafos, enlaces... Mientras que el **CSS** se utiliza para dar estilo al contenido, los colores, fuentes, márgenes... Una separación clara entre la **estructura** y el **diseño** de una página web. 
 
 ### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
+JavaScript juega un papel imprescidible junto a HTML y CSS a la hora de crear nuestra página web, y este influye entre los dos lenguajes de diferentes maneras:
 
-## 6. Herramientas de Programación:
+Por una parte con el HTML, JS puede acceder y modificar el DOM de la página para modificar los elementos del mismo. Tambien puede agregar event listeners como botones o formularios, para detectar al usuario. En la parte del CSS, puede cambiar los estilos del mismo. Y lo que más destaca de esta unión es que permite crear animaciones y transiciones, dándole dinamismo y vida a la página
+
+# 6. Herramientas de Programación:
 ### Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
 
+#### Visual Studio Code
+Editor de código fuente desarrollado por Microsoft lanzado el 29 de abril de 2015. Este destaca, entre otras cosas, por ser **multiplataforma** está disponible para Windows, macOS y Linux
+#### Eclipse
+Otro editor de código, este con un enfoque diferente, creado para convertirse en una plataforma de integración de herramientas de desarrollo. Es bastante popular entre los usuarios que desarrollan en Java, por lo que tiene bastante soporte con este lenguaje.
+#### Intellij
+Enfocada totalmente en el desarrollo de aplicaciones con Java. Al igual que Visual Studio, ambas comparten mucha popularidad y tienen una amplia comunidad de desarrolladores.
 
