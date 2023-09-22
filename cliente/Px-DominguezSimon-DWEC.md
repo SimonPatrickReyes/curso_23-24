@@ -19,7 +19,7 @@ Indice
 6. [Herramientas de Programación:](#herramientas-de-programación)
    + Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
 
-# 1. Modelos de Programación en Entornos Cliente/Servidor
+# 1- Modelos de Programación en Entornos Cliente/Servidor
 ### Investigación de los modelos cliente/servidor más comunes
 Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplicaciones web, estos podemos distinguirlos o clasificarlos por su arquitectura:
 
@@ -35,7 +35,7 @@ Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplica
    + Arquitectura de Renderizado del Lado del Servidor:  _https://vuejs.org/guide/scaling-up/ssr.html_
    + Arquitectura de Microservicios: Amazon
 
-# 2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
+# 2- Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:
 ### Estudio de cómo se ejecuta el código JavaScript en un navegador.
 Los navegadores son los responsables de interpretar el codigo JavaScript, como este es un lenguaje por turnos, interpreta el código línea a línea, por ejemplo en el caso de Chrome, este tiene un interprete que es "V8". Pues bien, este intérprete se ocupa de transcribir todo el código y mostrarlo por pantalla.
 
@@ -47,7 +47,7 @@ JavaScript es un lenguaje que sigue actualizandose día tras día, los navegador
 
 * Se considera que es un transpilador a aquellos compiladores capaces de traducir código entre dos lenguajes al mismo nivel de abstracción, por ejemplo, una traducción de TypeScript a JavaScript.
 
-# 3. Lenguajes de Programación en Entorno Cliente
+# 3- Lenguajes de Programación en Entorno Cliente
 ### Investigación de lenguajes como JavaScript, TypeScript, y otros.
 
 #### JavaScript
@@ -87,7 +87,7 @@ Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de
    - Herencia de elementos.
    - Creación de animaciones y efectos visuales.
   
-# 4. Características de los Lenguajes de Script. Ventajas y Desventajas:
+# 4- Características de los Lenguajes de Script. Ventajas y Desventajas:
 ### Análisis de las ventajas y desventajas de la programación en lenguajes de script sobre la programación tradicional.
 #### ECMAScript:
    - Ventajas: Interfaz sencilla, versátil y sintaxis simple (basada en JS).
@@ -102,7 +102,7 @@ Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de
    - Ventajas: Rápido y flexible, código abierto y multitud de herramientas.
    - Desventajas: La curvade aprendizaje es un poco más elevada que la del resto y de todos los que hemos visto, es el menos conocido, por lo que puede tener poco soporte por la comunidad.
 
-# 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
+# 5- Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
 ### Exploración de tecnologías como CSS y HTML5.
 Como bien hemos mencionado anteriormente HTML5 y CSS van prácticamente de la mano para casi cualquier página web que se preste. Asi que una última vez tengamos en cuenta que:
 
@@ -113,7 +113,7 @@ JavaScript juega un papel imprescidible junto a HTML y CSS a la hora de crear nu
 
 Por una parte con el HTML, JS puede acceder y modificar el DOM de la página para modificar los elementos del mismo. Tambien puede agregar event listeners como botones o formularios, para detectar al usuario. En la parte del CSS, puede cambiar los estilos del mismo. Y lo que más destaca de esta unión es que permite crear animaciones y transiciones, dándole dinamismo y vida a la página
 
-# 6. Herramientas de Programación:
+# 6- Herramientas de Programación:
 ### Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
 
 #### Visual Studio Code
