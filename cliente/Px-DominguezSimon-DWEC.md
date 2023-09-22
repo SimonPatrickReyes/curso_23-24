@@ -43,3 +43,28 @@ Los navegadores son los responsables de interpretar el codigo JavaScript, como e
 Tras consultar en un par de páginas, los principales navegadores tienen bastante compatibilidad, refiriendome a principales como Chrome, Microsoft Edge, Opera... El que más carencias tiene con JavaScript son los navegadores Safari, desarrollado por Apple Inc. Y su contraste, Firefox es el más compatible con JavaScript. Esto esta mostrado y reflejado en el siguiente enlace: _https://developer.mozilla.org/es/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs_, en él, se hace un estudio y se testean las API de JavaScript en los navegadores anteriormente mencionados.
 
 ### Resolución de problemas de compatibilidad en una aplicación web.
+JavaScript es un lenguaje que sigue actualizandose día tras día, los navegadores también, pero a un ritmo diferente, por lo que a día de hoy, todavía existen problemas de compatibilidad, para evitarlos se recomienda hacer uso de compiladores, o transpiladores* como **Babel**, este traduce todo tu código JavaScript y lo transforma a un "nivel de lenguaje" común apto para los navegadores que hayas escogido para traducir.
+
+* Se considera que es un transpilador a aquellos compiladores capaces de traducir código entre dos lenguajes al mismo nivel de abstracción, por ejemplo, una traducción de TypeScript a JavaScript.
+
+## 3. Lenguajes de Programación en Entorno Cliente
+### Investigación de lenguajes como JavaScript, TypeScript, y otros.
+#### React
+#### JavaScript
+#### TypeScript
+#### Angular
+#### Vue
+
+### Comparación de sus características y aplicaciones.
+
+## 4. Características de los Lenguajes de Script. Ventajas y Desventajas:
+### Análisis de las ventajas y desventajas de la programación en lenguajes de script sobre la programación tradicional.
+
+## 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
+### Exploración de tecnologías como CSS y HTML5.
+### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
+
+## 6. Herramientas de Programación:
+### Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
+
+
