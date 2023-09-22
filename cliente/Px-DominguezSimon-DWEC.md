@@ -1,7 +1,7 @@
 # Proyecto 1: Explorando los Fundamentos del Desarrollo Web en Entornos de Cliente
 
 Indice
-1. [Modelos de Programación en Entornos Cliente/Servidor](#modelos-de-programación-en-entornos-cliente/servidor)
+1. [Modelos de Programación en Entornos Cliente/Servidor](#modelos-de-programación-en-entornos-cliente-servidor)
    + Investigación de los modelos cliente/servidor más comunes.
    + Identificación de ejemplos de aplicaciones que utilizan cada modelo.
 2. [Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web:](#mecanismos-de-ejecución)
@@ -19,7 +19,7 @@ Indice
 6. [Herramientas de Programación:](#herramientas-de-programación)
    + Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
 
-# Modelos de Programación en Entornos Cliente/Servidor
+# Modelos de Programación en Entornos Cliente Servidor
 ### Investigación de los modelos cliente/servidor más comunes
 Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplicaciones web, estos podemos distinguirlos o clasificarlos por su arquitectura:
 
