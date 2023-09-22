@@ -49,11 +49,22 @@ JavaScript es un lenguaje que sigue actualizandose día tras día, los navegador
 
 ## 3. Lenguajes de Programación en Entorno Cliente
 ### Investigación de lenguajes como JavaScript, TypeScript, y otros.
-#### React
-#### JavaScript
-#### TypeScript
-#### Angular
-#### Vue
++ #### JavaScript
+Probablemente el lenguaje de desarrollo frontend más popular. Esto claro esta es por dos principales motivos, por que existe desde hace décadas (creado el 4 de diciembre de 1995 por Brendan Eich), y porque tiene algunas facilidades como:
+   * En muchas de las ocasiones, es posible ejecutar el código **directamente en el dispositivo del cliente**, esto facilita su uso, aparte que que es mucho menos aparatoso a la hora de escribir el código.
+   * Tiene un gran soporte de bibliotecas externas que hacen de JavaScript una herramienta mucho más extensa.
+
++ #### React
+Es una de las librerías de JavaScript más usadas, fue lanzada por Facebook el 29 de mayo de 2013, y a día de hoy, es muy popula en países como EE.UU, China y Reino Unido. Como hemos mencionado anteriormente, este es un lenguaje secuencial, es decir, que se lee línea a línea. Este lenguaje funciona con JSX (JavaScript XML), destaca a la hora de depurar, ya que React por ejemplo ofrece funciones que detectan errores de código y también es posible depurar el código antes de su ejecución. También marcar que React tiene una muy buena compatibilidad con el SEO (Search Engine Optimization).
+
++ #### TypeScript
+TypeScript nace, por así decirlo del propio JavaScript, es una extensión de la misma y sirve para redactar código JavaScript de una manera más sencilla y simple. Al igual que JavaScript, este lenguaje es muy usado y su comunidad cada vez aumenta más, esto ofrece también más soporte para la misma.
+  
++ #### Angular
+Nacido en 2012, de la mano de Misko Hevery y Adam Abrons, Angular es un framework que se suele usar comúnmente para realizar aplicaciones web de una sola página, aunque también destaca su uso para hacer menús dinámicos. Una de las ventajas más notables de este lenguaje, es que hace uso de HTML y JS de una manera muy única, y es que Angular **consigue sincronizar y fusionar estos dos códigos**, por lo que a la hora de escribir código, es mucho más ameno y se ahorra más tiempo.
+
+- #### Vue
+Se define en su página como un _framework progresivo para construir interfaces de usuario_, este fue creado por Evan You el febrero de 2014. Este framework es por así decirlo, como una expansión de JavaScript en la que simplifica el código mediante otras herramientas, haciendo de la creación de aplicaciones una tarea más rápida y dinámica.
 
 ### Comparación de sus características y aplicaciones.
 
