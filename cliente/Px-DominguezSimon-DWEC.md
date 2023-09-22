@@ -2,7 +2,7 @@
 
 Indice
 1. Modelos de Programación en Entornos Cliente/Servidor
-2. [Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web
+2. Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web
 3. Lenguajes de Programación en Entorno Cliente
 4. Características de los Lenguajes de Script. Ventajas y Desventajas
 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML
