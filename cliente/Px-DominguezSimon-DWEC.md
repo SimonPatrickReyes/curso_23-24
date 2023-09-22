@@ -49,6 +49,7 @@ JavaScript es un lenguaje que sigue actualizandose día tras día, los navegador
 
 ## 3. Lenguajes de Programación en Entorno Cliente
 ### Investigación de lenguajes como JavaScript, TypeScript, y otros.
+
 + #### JavaScript
 Probablemente el lenguaje de desarrollo frontend más popular. Esto claro esta es por dos principales motivos, por que existe desde hace décadas (creado el 4 de diciembre de 1995 por Brendan Eich), y porque tiene algunas facilidades como:
    * En muchas de las ocasiones, es posible ejecutar el código **directamente en el dispositivo del cliente**, esto facilita su uso, aparte que que es mucho menos aparatoso a la hora de escribir el código.
@@ -63,16 +64,64 @@ TypeScript nace, por así decirlo del propio JavaScript, es una extensión de la
 + #### Angular
 Nacido en 2012, de la mano de Misko Hevery y Adam Abrons, Angular es un framework que se suele usar comúnmente para realizar aplicaciones web de una sola página, aunque también destaca su uso para hacer menús dinámicos. Una de las ventajas más notables de este lenguaje, es que hace uso de HTML y JS de una manera muy única, y es que Angular **consigue sincronizar y fusionar estos dos códigos**, por lo que a la hora de escribir código, es mucho más ameno y se ahorra más tiempo.
 
-- #### Vue
++ #### Vue
 Se define en su página como un _framework progresivo para construir interfaces de usuario_, este fue creado por Evan You el febrero de 2014. Este framework es por así decirlo, como una expansión de JavaScript en la que simplifica el código mediante otras herramientas, haciendo de la creación de aplicaciones una tarea más rápida y dinámica.
 
++ #### Node
+Ideal para páginas web con bastante servicio back-end y de red del lado del servidor, este basado en el anteriormente mencionado compilador V8.
+
 ### Comparación de sus características y aplicaciones.
+Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de cada uno:
+
++ #### JavaScript
+   - Fácil manipulación del DOM.
+   - AJAX para la carga de contenido dinámico (no necesita una recarga por los cambios).
+   - Comunicación directa e inmediata entre cliente y servidor.
+     
++ #### React
+   - Curva de aprendizaje bastante leve.
+   - Alta y rápida capacidad de respuesta.
+   - Migración entre versiones fácil y cómoda.
+
++ #### TypeScript
+   - Lenguaje intuitivo.
+   - Escritura estática.
+   - Rápida detección de erroes.
+  
++ #### Angular
+   - Alta compatibilidad en los navegadores.
+   - Uso de TypeScript, por lo que al igual que el punto anterior, es intuitivo.
+   - Reducción de código.
+
++ #### Vue
+   - Poco pesado (18 KB de instalación).
+   - Fácil de usar.
+   - Arquitectura basada en componentes.
+
++ #### Node
+   - Facilita el desarrollo rápido de API RESTful.
+   - Permite la gestión simultánea de peticiones.
+   - Facilita la creación de aplicaciones de internet de gran competencia.
+
 
 ## 4. Características de los Lenguajes de Script. Ventajas y Desventajas:
 ### Análisis de las ventajas y desventajas de la programación en lenguajes de script sobre la programación tradicional.
+#### CMAScript:
+   - Ventajas: Interfaz sencilla, versátil y sintaxis simple (basada en JS).
+   - Desventajas: Poca seguridad y puede que no todos los navegadores interpreten bien el código.
+#### PHP:
+   - Ventajas: Lenguaje de código abierto, automatización de tarea.
+   - Desventajas: Seguridad baja y necesita de un servidor web para ejectuar el software.
+#### Python: 
+   - Ventajas: Gran portabilidad, gratis y de código abierto.
+   - Desventajas: No adecuado para el desarrollo móvil y bastante lento.
+#### Ruby:
+   - Ventajas: Rápido y flexible, código abierto y multitud de herramientas.
+   - Desventajas: La curvade aprendizaje es un poco más elevada que la del resto y de todos los que hemos visto, es el menos conocido, por lo que puede tener poco soporte por la comunidad.
 
 ## 5. Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
 ### Exploración de tecnologías como CSS y HTML5.
+
 ### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
 
 ## 6. Herramientas de Programación:
