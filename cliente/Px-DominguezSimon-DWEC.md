@@ -41,9 +41,9 @@ JavaScript es un lenguaje que sigue actualizandose día tras día, los navegador
 * Se considera que es un transpilador a aquellos compiladores capaces de traducir código entre dos lenguajes al mismo nivel de abstracción, por ejemplo, una traducción de TypeScript a JavaScript.
 
 Referencias:
-  -_https://ingenieriadesoftware.es/babel-transpilador-compatibilidad-javascript/_
-  -_https://ingenieriadesoftware.es/diferencia-transpilacion-compilacion/_
 
+  - _https://ingenieriadesoftware.es/babel-transpilador-compatibilidad-javascript/_
+  - _https://ingenieriadesoftware.es/diferencia-transpilacion-compilacion/_
 
 # 3- Lenguajes de Programación en Entorno Cliente
 ### Investigación de lenguajes como JavaScript, TypeScript, y otros.
@@ -86,9 +86,10 @@ Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de
    - Creación de animaciones y efectos visuales.
 
 Referencias:
-  -_https://blog.hubspot.es/website/ventajas-y-desventajas-de-javascript#desventajas_
-  -_https://appdelante.com/blog/polyfills-transpilacion-javascript-compatible-con-todos-los-navegadores_
-  -_https://www.inesdi.com/blog/typescript-vs-javascript/_
+
+  - _https://blog.hubspot.es/website/ventajas-y-desventajas-de-javascript#desventajas_
+  - _https://appdelante.com/blog/polyfills-transpilacion-javascript-compatible-con-todos-los-navegadores_
+  - _https://www.inesdi.com/blog/typescript-vs-javascript/_
 
 # 4- Características de los Lenguajes de Script. Ventajas y Desventajas:
 ### Análisis de las ventajas y desventajas de la programación en lenguajes de script sobre la programación tradicional.
@@ -123,9 +124,10 @@ JavaScript juega un papel imprescidible junto a HTML y CSS a la hora de crear nu
 Por una parte con el HTML, JS puede acceder y modificar el DOM de la página para modificar los elementos del mismo. Tambien puede agregar event listeners como botones o formularios, para detectar al usuario. En la parte del CSS, puede cambiar los estilos del mismo. Y lo que más destaca de esta unión es que permite crear animaciones y transiciones, dándole dinamismo y vida a la página
 
 Referencias:
-  -_https://www.freecodecamp.org/espanol/news/ventajas-y-desventajas-de-javascript/_
-  -_https://www.miformaciongratis.com/blog-post/html5-que-es-y-para-que-sirve/#:~:text=HTML5%20(HyperText%20Markup%20Language%2C%20versión,necesidades%20de%20hoy%20en%20día._
-  -_https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS_
+
+  - _https://www.freecodecamp.org/espanol/news/ventajas-y-desventajas-de-javascript/_
+  - _https://www.miformaciongratis.com/blog-post/html5-que-es-y-para-que-sirve/#:~:text=HTML5%20(HyperText%20Markup%20Language%2C%20versión,necesidades%20de%20hoy%20en%20día._
+  - _https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS_
 
 # 6- Herramientas de Programación:
 ### Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
@@ -138,7 +140,8 @@ Otro editor de código, este con un enfoque diferente, creado para convertirse e
 Enfocada totalmente en el desarrollo de aplicaciones con Java. Al igual que Visual Studio, ambas comparten mucha popularidad y tienen una amplia comunidad de desarrolladores.
 
 Referencias:
-  -_https://www.genbeta.com/desarrollo/eclipse-ide_
-  -_https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/_
-  -_https://www.getapp.es/software/125123/intellij-idea#:~:text=IntelliJ%20IDEA%20es%20un%20IDE,prueba%20y%20análisis%20de%20aplicaciones._
+
+  - _https://www.genbeta.com/desarrollo/eclipse-ide_
+  - _https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/_
+  - _https://www.getapp.es/software/125123/intellij-idea#:~:text=IntelliJ%20IDEA%20es%20un%20IDE,prueba%20y%20análisis%20de%20aplicaciones._
 
