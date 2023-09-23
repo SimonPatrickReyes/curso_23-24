@@ -20,7 +20,8 @@ Uno de los modelos cliente/servidor son en los que el cliente hace uso de aplica
    + Arquitectura de Microservicios: Lo que más destaca de esta arquitectura es que esta modularizada en muchisímos componentes, cada uno totalmente independiente del otro (salvo estética) todo pensando para que a la hora de hacer cambios o si por ejemplo la aplicación es usada por muchos usuarios, es relativamente más fácil mantenerla y cuidarla. Esta enfoncado a proyectos grandes, por lo que para proyectos pequeños puede resultar demasiado complejo.
 
 Referencias: 
-  -_https://kinsta.com/es/blog/arquitectura-aplicaciones-web/_
+
+  - _https://kinsta.com/es/blog/arquitectura-aplicaciones-web/_
 
 ### Identificación de ejemplos de aplicaciones que utilizan cada modelo
 
