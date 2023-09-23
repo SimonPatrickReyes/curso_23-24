@@ -107,10 +107,11 @@ Referencias:
    - Desventajas: La curvade aprendizaje es un poco más elevada que la del resto y de todos los que hemos visto, es el menos conocido, por lo que puede tener poco soporte por la comunidad.
 
 Referencias:
-  -_https://kinsta.com/es/blog/lenguajes-script/_
-  -_https://coworkings.co/ruby-ventajas-y-desventajas/_
-  -_https://keepcoding.io/blog/ventajas-y-desventajas-de-python/#Desventajas_de_Python_
-  -_https://talently.tech/blog/ventajas-de-php/_
+
+  - _https://kinsta.com/es/blog/lenguajes-script/_
+  - _https://coworkings.co/ruby-ventajas-y-desventajas/_
+  - _https://keepcoding.io/blog/ventajas-y-desventajas-de-python/#Desventajas_de_Python_
+  - _https://talently.tech/blog/ventajas-de-php/_
   
 # 5- Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML:
 ### Exploración de tecnologías como CSS y HTML5.
