@@ -1,8 +1,3 @@
----
-marp: true
-class: invert
----
-
 # Proyecto 1: Explorando los Fundamentos del Desarrollo Web en Entornos de Cliente
 _Simón Patrick_
 
