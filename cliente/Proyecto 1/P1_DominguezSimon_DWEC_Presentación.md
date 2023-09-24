@@ -95,5 +95,5 @@ Otro editor de código, este con un enfoque diferente, creado para convertirse e
 #### Intellij
 Enfocada totalmente en el desarrollo de aplicaciones con Java. Al igual que Visual Studio, ambas comparten mucha popularidad y tienen una amplia comunidad de desarrolladores.
 
-![w:240 center](./img/Intellij.png) ![w:240 center](/Proyecto%201/img/vsc.png) ![w:240 center](/Proyecto%201/img/eclipse.png)
+![w:240 center](./img/Intellij.png) ![w:240 center](./img/vsc.png) ![w:240 center](./img/eclipse.png)
 
