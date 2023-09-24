@@ -74,7 +74,7 @@ Una vez hemos revisado los principales lenguajes es hora de descatar lo mejor de
 #### TypeScript
    - Lenguaje intuitivo.
    - Escritura estática.
-   - Rápida detección de erroes.
+   - Rápida detección de errores.
    
 #### HTML
    - Lenguaje intuitivo.
