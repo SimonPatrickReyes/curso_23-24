@@ -17,13 +17,14 @@ Nombre de variables:
 - Buscar un estandar personal
 - Hacer FreeCodeCamp de JS
 
-Formas de declarar cadenas:
-  Primitivas:
-  ---
+Formas de declarar cadenas (Primitivas):
+
+---
   const producto= "Monitor 20"
   console.log(producto)
-  ---
+---
+---
   const producto2= String("Monitor 20");
   console.log(producto2)
-  ---
+---
     
