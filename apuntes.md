@@ -19,12 +19,18 @@ Nombre de variables:
 
 Formas de declarar cadenas (Primitivas):
 
----
+```
   const producto= "Monitor 20"
   console.log(producto)
----
----
+```
+```
   const producto2= String("Monitor 20");
   console.log(producto2)
----
+```
+
+Tercera forma (en desuso):
+```
+const producto3= New String("Monitor hd")
+console.log(producto3)
+```
     
