@@ -241,6 +241,13 @@ valor= diaHoy.getYear()= 2023
 #### Libreria Moment
 Te ofrece un formato **más limpio** y **más entendible** que el que aporta Date.
 
+Para insertarla basta como añadirlo en tu Index:
+```
+<script>https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js</script>
+<script>https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js</script>
+
+```
+
 ```
 console.log(moment().format("MMMM Do YYYY, h:mm:ss",diaHoy)) = septiembre 27º 2023, 10:00:00
 ```
