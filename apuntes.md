@@ -251,7 +251,132 @@ Para insertarla basta como añadirlo en tu Index:
 ```
 console.log(moment().format("MMMM Do YYYY, h:mm:ss",diaHoy)) = septiembre 27º 2023, 10:00:00
 ```
-  
+
+### 29/09/23
+Formas de declarar objetos
+```
+//Objeto ___________
+
+//Objeto constructor
+function Producto (name,price){
+  this.name=name;
+  this.price=price;
+}
+
+const producto2= newProducto("tele",45)
+```
+#### Otros métodos
+```
+const prodcuto={
+  name="monitor"
+  price=20
+}
+
+console.log(Object.keys(producto) -> te da un array con las propiedades
+console.log(Object.values(producto) -> te da un array con las propiedades con sus valores
+console.table(Object.entries(producto) -> te da un array bidimensional con las propiedades y sus valores
+
+```
+#### Arrays
+```
+const numeros = {12,13,14,15,16}
+
+const meses = {"enero","febrero",15,16}
+
+// Acceder a un array
+meses{0}="marzo" -> cambia enero por marzo
+
+// Añadir elementos a un array
+const carrito = {}
+
+const producto = {
+  nombre="monitor"
+  precio=500
+}
+
+const producto2 = {
+  nombre="telefono"
+  precio=100
+}
+
+carrito.unshift(producto) -> añadido al comienzo
+carrito.push(producto) -> añade al final
+```
+####  Express Operator
+
+```
+// Añadir elementos a un array
+const carrito = {}
+
+const producto = {
+  nombre="monitor"
+  precio=500
+}
+
+const producto2 = {
+  nombre="telefono"
+  precio=100
+}
+
+let resultado ={...carrito, producto} -> copia del array y añade el producto
+resultado ={...resultado, producto2} -> copia del array anterior y añade el segundo producto (Para añadir al comienzo simplemente al reves "{producto2,...resultado}"
+
+```
+####  Eliminar elementos de un array
+```
+const carrito = {}
+
+const producto = {
+  nombre="monitor"
+  precio=500
+}
+
+const producto2 = {
+  nombre="telefono"
+  precio=100
+}
+
+let resultado ={...carrito, producto} -> copia del array y añade el producto
+resultado ={...resultado, producto2} -> copia del array anterior y añade el segundo producto (Para añadir al comienzo simplemente al reves "{producto2,...resultado}"
+
+resultado.shift() -> Elimina el primer elemento del array resultado
+resultado.pop() -> Elimina el último elemento del array resultado
+
+resultado.splice() -> Mejor método, tú eliges cuanto eliminar del array
+```
+#### Destructuring arrays
+```
+const numeros = [10,20,30,40]
+const [primero] = numeros -> da nombre a la posicion del array
+console.log(primero)= 10
+const [,,jose] = numeros -> da nombre a la posicion del array
+console.log(jose)= 30
+
+const [primero,segundo, ...resto] = numeros -> crea un array con el "resto" de elementos del array  (esto si se puede llegar a usar más que lo anterior)
+```
+#### forEach
+```
+const carrito = [
+{nombre:"Monitor", precio:500},
+{nombre:"Pantalla", precio:500},
+{nombre:"Teclado", precio:500},
+{nombre:"Raton", precio:500},
+]
+for (int i=0; i<carrito.length;i++){
+console.log(carrito[i].nombre)
+}
+
+carrito.forEach(function(prodcuto)){
+console.log(producto.nombre)
+}
+
+carrito.map(function(prodcuto)){  -> la diferencia entre map y forEach, es que map puede recorrer la array, eleminar un elemento, y devuelve el array, el forEach no.
+console.log(producto.nombre)
+}
+
+
+```
+
   
   
   
