@@ -279,15 +279,15 @@ console.table(Object.entries(producto) -> te da un array bidimensional con las p
 ```
 #### Arrays
 ```
-const numeros = {12,13,14,15,16}
+const numeros = [12,13,14,15,16]
 
-const meses = {"enero","febrero",15,16}
+const meses = ["enero","febrero",15,16]
 
 // Acceder a un array
-meses{0}="marzo" -> cambia enero por marzo
+meses[0]="marzo" -> cambia enero por marzo
 
 // Añadir elementos a un array
-const carrito = {}
+const carrito = []
 
 const producto = {
   nombre="monitor"
@@ -306,7 +306,7 @@ carrito.push(producto) -> añade al final
 
 ```
 // Añadir elementos a un array
-const carrito = {}
+const carrito = []
 
 const producto = {
   nombre="monitor"
@@ -318,13 +318,13 @@ const producto2 = {
   precio=100
 }
 
-let resultado ={...carrito, producto} -> copia del array y añade el producto
-resultado ={...resultado, producto2} -> copia del array anterior y añade el segundo producto (Para añadir al comienzo simplemente al reves "{producto2,...resultado}"
+let resultado =[...carrito, producto] -> copia del array y añade el producto
+resultado =[...resultado, producto2] -> copia del array anterior y añade el segundo producto (Para añadir al comienzo simplemente al reves "[producto2,...resultado]"
 
 ```
 ####  Eliminar elementos de un array
 ```
-const carrito = {}
+const carrito = []
 
 const producto = {
   nombre="monitor"
@@ -336,8 +336,8 @@ const producto2 = {
   precio=100
 }
 
-let resultado ={...carrito, producto} -> copia del array y añade el producto
-resultado ={...resultado, producto2} -> copia del array anterior y añade el segundo producto (Para añadir al comienzo simplemente al reves "{producto2,...resultado}"
+let resultado =[...carrito, producto] -> copia del array y añade el producto
+resultado =[...resultado, producto2] -> copia del array anterior y añade el segundo producto (Para añadir al comienzo simplemente al reves "[producto2,...resultado]"
 
 resultado.shift() -> Elimina el primer elemento del array resultado
 resultado.pop() -> Elimina el último elemento del array resultado
