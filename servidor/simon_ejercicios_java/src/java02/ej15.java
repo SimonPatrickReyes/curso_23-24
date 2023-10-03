@@ -24,19 +24,25 @@ public class ej15 {
                 System.out.println(" "+" "+" "+c+c);
                 break;
             case "2":
-                System.out.println(c+" "+" ");
-                System.out.println(c+c+c);
-                System.out.println(c+" "+" ");
+                System.out.println(c+c+" "+" "+" ");
+                System.out.println(c+c+c+c+" ");
+                System.out.println(c+c+c+c+c);
+                System.out.println(c+c+c+c+" ");
+                System.out.println(c+c+" "+" "+" ");
                 break;
             case "3":
-                System.out.println(" "+c+" ");
-                System.out.println(" "+c+" ");
-                System.out.println(c+c+c);
+                System.out.println(" "+" "+c+" "+" ");
+                System.out.println(" "+c+c+c+" ");
+                System.out.println(" "+c+c+c+" ");
+                System.out.println(c+c+c+c+c);
+                System.out.println(c+c+c+c+c);
                 break;
             case "4":
-                System.out.println(c+c+c);
-                System.out.println(" "+c+" ");
-                System.out.println(" "+c+" ");
+                System.out.println(c+c+c+c+c);
+                System.out.println(c+c+c+c+c);
+                System.out.println(" "+c+c+c+" ");
+                System.out.println(" "+c+c+c+" ");
+                System.out.println(" "+" "+c+" "+" ");
                 break;
         }
 
