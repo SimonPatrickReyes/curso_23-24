@@ -386,7 +386,138 @@ for(let i=0; i<=10;i++){
   }
   clg("numero"+i)
 }
+
+//Reto Fizz Buzz
+
+//3 6 9... FIZZ -> 3 - FIZZ
+// 5 10 15 20 25 -> 5 - BUZZ
+// 35 40 45 -> 15 - FIZZ BUUZ
+
+for (let i = 1; i < 100; i++) {
+
+    if(i%15===0){
+        console.log( `${i} - FIZZ BUZZ`);
+        continue
+    }
+
+    else if(i%5===0){
+        console.log( `${i} - BUZZ`);
+        continue
+    }
+
+    else if(i%3===0){
+        console.log( `${i} - FIZZ`);
+        continue
+    }
+
+   
+}
+
+//While
+
+let i=0 //Inicializamos
+
+while(i<100){
+
+    if(i%15===0){
+        console.log( `${i} - FIZZ BUZZ`);
+        continue
+    }
+
+    else if(i%5===0){
+        console.log( `${i} - BUZZ`);
+        continue
+    }
+
+    else if(i%3===0){
+        console.log( `${i} - FIZZ`);
+        continue
+    }
+    i++
+}
+
+//Do While (Este se ejecuta una vez siempre, independientemente de la condicion)
+
+let i=0 //Inicializamos
+
+do {
+i++
+} while (i<100)
+
+//For each
+
+const pendientes["tarea","comer",correr"]
+
+pendientes.forEach((pendientes,index) =>{ //EL index o indice muestra todos los elementos del array
+clg(pendiente)
+}
+
+//For of
+
+const pendientes["tarea","comer",correr"]
+
+for (const pendiente of pendientes){
+clg(pendiente) // Muestra nuevamente todos los elementos del array pendientes
+}
+
+
+//For in, igual que el for of, pero para objetos
+
+const coche={
+marca:"seat",
+modelo:"toledo",
+color:"rojo"
+}
+
+for (const item in coche){
+  clg(`${item} - ${coche[item]}`
+}
+
 ```
+
+#### Métodos para los arrays
+```
+// .includes y .some
+
+const meses=["Enero","Febrero","Marzo","Abril"]
+
+const carrito={
+{nombre:"Televisor", precio:50},
+{nombre:"Sofa", precio:500},
+{nombre:"Frigo", precio:45},
+{nombre:"Teclado", precio:23},
+{nombre:"Telefono", precio:560},
+}
+
+//Comprobar si un valor existe en el array
+
+meses.forEach((mes)=>{
+  if(mes==="Marzo"){
+  clg("Marzo existe)
+  }
+})
+
+//Hacen lo mismo ⇵
+
+const resultado = meses.includes("Marzo") //true o false, esto no funciona con un array de objeto
+
+// Some (arrays - objetos)
+
+const resultado2= carrrito.some((producto)=>{
+  producto.nombre=== "Televisor"
+})
+
+clg(resultado2)
+
+//Some tambien funciona con arrays tradicionales
+
+const resultado3= meses.some((mes) => mes === "Febrero") // La diferencia es que en este es algunas veces necesario quitar los corchetes porque puede no funcionar bien
+clg(resultado3]
+
+
+
+```
+
   
   
 
