@@ -376,8 +376,17 @@ console.log(producto.nombre)
 
 
 ```
-
-  
+##### 05/10/23
+#### Iteradores
+```
+for(let i=0; i<=10;i++){
+  if(i==5){
+  clg("Estamos en el cinco")
+  continue
+  }
+  clg("numero"+i)
+}
+```
   
   
 
