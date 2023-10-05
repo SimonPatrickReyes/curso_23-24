@@ -537,6 +537,10 @@ clg(index)
 const indice = meses.findIndex((mes)=>mes==="Marzo")
 clg(indice)
 
+// Tambien funciona con un array de objetos, si hubiese dos productos llamados igual, devolvería el primero
+const indice2= carrito.findIndex((producto)=> producto.nombre === "Televsior")
+clg(indice2);
+
 
 ```
 
