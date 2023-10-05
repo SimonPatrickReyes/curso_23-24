@@ -412,8 +412,9 @@ for (let i = 1; i < 100; i++) {
 
    
 }
-
-//While
+```
+#### While
+```
 
 let i=0 //Inicializamos
 
@@ -435,34 +436,39 @@ while(i<100){
     }
     i++
 }
+```
 
-//Do While (Este se ejecuta una vez siempre, independientemente de la condicion)
-
+##### Do While 
+(Este se ejecuta una vez siempre, independientemente de la condicion)
+```
 let i=0 //Inicializamos
 
 do {
 i++
 } while (i<100)
+```
 
-//For each
-
+#### For each
+```
 const pendientes["tarea","comer",correr"]
 
 pendientes.forEach((pendientes,index) =>{ //EL index o indice muestra todos los elementos del array
 clg(pendiente)
 }
+```
 
-//For of
-
+#### For of
+```
 const pendientes["tarea","comer",correr"]
 
 for (const pendiente of pendientes){
 clg(pendiente) // Muestra nuevamente todos los elementos del array pendientes
 }
+```
 
-
-//For in, igual que el for of, pero para objetos
-
+#### For in
+Igual que el for of, pero para objetos
+```
 const coche={
 marca:"seat",
 modelo:"toledo",
@@ -476,9 +482,9 @@ for (const item in coche){
 ```
 
 #### Métodos para los arrays
-```
-// .includes y .some
 
+#### .includes y .some
+```
 const meses=["Enero","Febrero","Marzo","Abril"]
 
 const carrito={
@@ -513,9 +519,12 @@ clg(resultado2)
 
 const resultado3= meses.some((mes) => mes === "Febrero") // La diferencia es que en este es algunas veces necesario quitar los corchetes porque puede no funcionar bien
 clg(resultado3]
+```
 
-// Encontrar el indice de un elemento del array
+#### FindIndex
+Encontrar el indice de un elemento del array
 
+```
 const meses=["Enero","Febrero","Marzo","Abril"]
 
 const carrito={
@@ -540,8 +549,10 @@ clg(indice)
 // Tambien funciona con un array de objetos, si hubiese dos productos llamados igual, devolvería el primero
 const indice2= carrito.findIndex((producto)=> producto.nombre === "Televsior")
 clg(indice2);
+```
 
-// Reduce
+#### Reduce
+```
 const meses=["Enero","Febrero","Marzo","Abril"]
 
 const carrito={
