@@ -514,9 +514,32 @@ clg(resultado2)
 const resultado3= meses.some((mes) => mes === "Febrero") // La diferencia es que en este es algunas veces necesario quitar los corchetes porque puede no funcionar bien
 clg(resultado3]
 
+// Encontrar el indice de un elemento del array
+
+const meses=["Enero","Febrero","Marzo","Abril"]
+
+const carrito={
+{nombre:"Televisor", precio:50},
+{nombre:"Sofa", precio:500},
+{nombre:"Frigo", precio:45},
+{nombre:"Teclado", precio:23},
+{nombre:"Telefono", precio:560},
+}
+
+// Con forEach
+meses.forEach((mes, index)=>{
+ if mes==="Marzo"){
+clg(index)
+  }
+})
+
+// Con findIndex
+const indice = meses.findIndex((mes)=>mes==="Marzo")
+clg(indice)
 
 
 ```
+
 
   
   
