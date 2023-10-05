@@ -541,6 +541,109 @@ clg(indice)
 const indice2= carrito.findIndex((producto)=> producto.nombre === "Televsior")
 clg(indice2);
 
+// Reduce
+const meses=["Enero","Febrero","Marzo","Abril"]
+
+const carrito={
+{nombre:"Televisor", precio:50},
+{nombre:"Sofa", precio:500},
+{nombre:"Frigo", precio:45},
+{nombre:"Teclado", precio:23},
+{nombre:"Telefono", precio:560},
+}
+
+// Con forEach
+int total=0;
+carrito.forEach((producto)=>{
+  total += producto.precio;
+})
+clg(total) // = 1.178
+
+// Con Reduce
+
+const resultado = carrito.reduce((total, producto)=>{
+total + producto.precio, 0
+})
+clg(resultado) // = 1.178
+```
+##### Filter
+```
+const meses=["Enero","Febrero","Marzo","Abril"]
+
+const carrito={
+{nombre:"Televisor", precio:50},
+{nombre:"Sofa", precio:500},
+{nombre:"Frigo", precio:45},
+{nombre:"Teclado", precio:23},
+{nombre:"Telefono", precio:560},
+}
+
+// con ForEach
+
+int resultado= []
+carrito.forEach((producto)=>{
+  if(producto.precio===45){
+  resultado= [...resultado,producto]
+  }
+})
+clg(resultado) // = {nombre:"Frigo", precio:45}
+
+// con .Filter
+
+resultado2=carrito.filter((producto)=> producto.precio === 45)
+clg(resultado2) // = {nombre:"Frigo", precio:45}
+
+
+```
+
+##### Find
+```
+const meses=["Enero","Febrero","Marzo","Abril"]
+
+const carrito={
+{nombre:"Televisor", precio:50},
+{nombre:"Sofa", precio:500},
+{nombre:"Frigo", precio:45},
+{nombre:"Teclado", precio:23},
+{nombre:"Telefono", precio:560},
+{nombre:"Tablet", precio:60},
+}
+
+// con ForEach
+
+int resultado= []
+carrito.forEach((producto)=>{
+  if(producto.nombre==="Tablet"){
+  resultado= producto
+  }
+})
+clg(resultado) // = {nombre:"Tablet", precio:60}
+
+// con .Filter
+
+resultado2=carrito.find((producto)=> producto.precio === "Tablet")
+clg(resultado2) // = {nombre:"Tablet", precio:60}
+
+
+```
+#### .every() 
+Comprueba si todos los elementos de un objeto cumplen una misma condicion
+```
+const meses=["Enero","Febrero","Marzo","Abril"]
+
+const carrito={
+{nombre:"Televisor", precio:50},
+{nombre:"Sofa", precio:500},
+{nombre:"Frigo", precio:45},
+{nombre:"Teclado", precio:23},
+{nombre:"Telefono", precio:560},
+{nombre:"Tablet", precio:60},
+}
+
+const resultado= carrito.every((producto)=> producto,precio > 0)
+
+clg(resultado) // = true (todos son mayores de 0)
+
 
 ```
 
