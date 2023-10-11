@@ -654,8 +654,26 @@ const carrito={
 const resultado= carrito.every((producto)=> producto,precio > 0)
 
 clg(resultado) // = true (todos son mayores de 0)
+```
+##### 11/10/23
+#### Programación orientada a objetos
+```
 
+```
+#### Herencia
+```
+//Extends para heredar la clase
+const Empresa extends Client{}
+  const empresa = new Empresa("codigo",34)
+clg(empresa.mostrarInformacion())
 
+const Empresa2 extends Client{
+  constructor(nombre,edad,telefono,modalidadTrabajo){
+  super(nombre,edad)
+  this.telefono=telefono
+  this.modalidadTrabajo=modalidadTrabajo
+}
+}
 ```
 
 
