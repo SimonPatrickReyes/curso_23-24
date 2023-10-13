@@ -2,33 +2,29 @@
 Todos los años tienen 52 semanas, excepto los años bisiestos que tienen 53 semanas.
 Crea un script que reciba un string en formato YYYY-MM-DD y devuelva a qué número de semana pertenece una fecha dada. */
 
-var f = "2023-10-11";
+//Se introduce la fecha
+var f = prompt("Introduce una fecha con el siguiente formato: YYYY-MM-DD")
 
+//Se pasa a Array para obtener el dato del año
 const fecha = f.split(" ") && f.split("-");
-const fechaInicial=[fecha[0],1,1];
 
-console.log(fecha);
+//Creamos una variable con la fecha 1 de enero del año correspondiente
+const fechaInicial= new Date(fecha[0],0,1); //1 de enero
 
-let year = fecha[0];
-let month = fecha[1];
-let day = fecha[2];
+//Volvemos a establecer la fecha que ha introducido el usuario a un Date
+var fechaIntroducida= new Date(fecha)
 
+/* Hacemos el calculo restando la fecha introducida a la inicial, 
+el resultado sale en milisegundos, por lo que tendremos que pasarlo a semanas */
+var resto= fechaIntroducida-fechaInicial
 
+//Conversión a semanas
+resto=resto/60000 //de milisegundos a minutos
+resto=resto/60 //de minutos a horas
+resto=Math.round(resto/24) //de horas a dias
+resto=Math.round(resto/7) //de dias a semanas
 
-// dia de la semana de la fecha introducida
-const a = new Date(fecha);
-const diaSemana = a.getDay();
-console.log(diaSemana);
-
-// dia de la semana de principio de año
-const b = new Date(fechaInicial);
-const diaSemanaIncial = b.getDay();
-console.log(diaSemanaIncial);
-
-//pasar string a int
-
-day+1;
-console.log(fecha)
-
+//El numero de semanas que han pasado desde el 1 de enero hasta la fecha introducida es el equivalente al numero de esa semana en si.
+window.alert("Estamos en la semana nº"+resto)
 
 
