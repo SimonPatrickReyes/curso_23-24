@@ -487,13 +487,13 @@ for (const item in coche){
 ```
 const meses=["Enero","Febrero","Marzo","Abril"]
 
-const carrito={
+const carrito=[
 {nombre:"Televisor", precio:50},
 {nombre:"Sofa", precio:500},
 {nombre:"Frigo", precio:45},
 {nombre:"Teclado", precio:23},
 {nombre:"Telefono", precio:560},
-}
+]
 
 //Comprobar si un valor existe en el array
 
