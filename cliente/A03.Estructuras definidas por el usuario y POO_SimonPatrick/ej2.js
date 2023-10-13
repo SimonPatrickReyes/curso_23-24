@@ -4,6 +4,7 @@ var suma=0;
 
 var cantidadVeces=[];
 
+n=parseInt(n)
 
 function lanzarDados() {
     for (let i = 0; i < n; i++) {
@@ -16,20 +17,17 @@ function lanzarDados() {
     if (cantidadVeces[suma]>0) {
         let valor= cantidadVeces[suma]+1
         cantidadVeces[suma]=valor
-    } //else if (typeof(cantidadVeces[suma])===undefined) {
-    //cantidadVeces[suma]=0
-    //}
-    
-    
+    }
     else{
         cantidadVeces[suma]=1
     }
+    for (let i = 2; i <= 12; i++) {
+        if (cantidadVeces[i]==null) {
+            cantidadVeces[i]=0
+        }
+        
+    }
 }
-
-
-    
-
-    
 
 }
 lanzarDados(n)
@@ -43,5 +41,6 @@ alert(`2 ha salido:${cantidadVeces[2]} veces\n
 8 ha salido:${cantidadVeces[8]} veces\n
 9 ha salido:${cantidadVeces[9]} veces\n
 10 ha salido:${cantidadVeces[10]} veces\n
-11 ha salido:${cantidadVeces[11]} veces\n`);
+11 ha salido:${cantidadVeces[11]} veces\n
+12 ha salido:${cantidadVeces[12]} veces\n`);
 

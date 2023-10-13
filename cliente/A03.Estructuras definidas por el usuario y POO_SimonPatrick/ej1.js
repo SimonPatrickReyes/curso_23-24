@@ -1,20 +1,18 @@
 var n = prompt("¿cuantos bauuuba quieres?")
-var bauuuba = "";
 
-function funBauuuba() {
- 
-        if (n===0) {
-            return
 
-        } else {
-            bauuuba = bauuuba + " bauuuba ";
-            --n
-            funBauuuba()
-        }
+n=parseInt(n);
 
-        
+function bauuuba(n) {
 
-    window.alert(bauuuba)
-}
+    if (n===0) {
+      return;
 
-funBauuuba()
+    }else{
+      document.write("bauuuba ");
+      bauuuba(n-1)
+    }
+    
+  }
+
+  bauuuba(n)
