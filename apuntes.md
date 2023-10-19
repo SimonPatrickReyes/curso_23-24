@@ -702,6 +702,18 @@ const encabezado = document.querySelector("h1")
 encabezado.innerHTML //Para sustituir elementos mejor
 encabezado.innerText //Para sustituir contenido mejor, si el elemento tiene visibilidad hidden, este no se mostrará
 encabezado.textContent //Para sustituir contenido mejor, este es el más recomendado
+
+//Como sustituir el contenido de estos elementos
+document.querySelector("h1").textContent = "Contenido modificado desde JS"
+
+//Cambiar imagen
+const imagen = document.querySelector(".card img")
+imagen.src = "img/arriba.jpg"
+
+//Modificar CSS desde JS
+encabezado = document.querySelector("h1")
+encabezado.style.backgroundColor = "red"
+encabezado.style.fontFamily = "Arial"
 ```
 
 
