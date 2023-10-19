@@ -716,11 +716,39 @@ encabezado.style.backgroundColor = "red"
 encabezado.style.fontFamily = "Arial"
 ```
 
+#### Añadir y/o eliminar clases
+```
+const card = querySelector(".card")
+card.classList.add("nueva-clase")
+
+card.classList.remove("nueva-clase")
+```
+
+#### Recorrer el DOM
+```
+const navegacion = querySelector("nav")
+navegacion.childNodes //Muestra los elementos hijos
+navegacion.children //Muestra los elementos HTML hijos
+
+const card = document.querySelector(".card")
+card.children[1]
+```
+#### Recorrer el DOM (hacia arriba)
+```
+card.ParentElement / card.parentNode //Se recomienda de nuevo el parentElement, el otro muestra saltos de líneas, espacios...
+```
+#### Eliminar e insertar elementos del DOM
+```
+//Dos formas, borrarlo desde si mismo
+const primerEnlace = querySelector("a")
+primerEnlace.remove() 
+
+//Borrarlo desde el elemento padre
+const navegacion = querySelector("nav")
+navegacion.removeChild(navegacion.children[1])
 
 
-
-  
-  
+```
 
   
 
