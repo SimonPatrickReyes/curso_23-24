@@ -684,8 +684,13 @@ Para acceder a algun elemento del HTML siempre se usa document, que alberga todo
 Ejemplo: elemento = document.body
 
 getElementsByClassName() // Almacena todos los elementos que contenga una clase, selector antiguo y no recomendado para usar.
-getElementById() // Lo mismo pero con ids, muy usado, solo trae un elemento. Ejemplo: elemento = document.getElementById(footer)
-
+getElementById() // Lo mismo pero con id, solo trae un elemento. Ejemplo: elemento = document.getElementById(footer).
+```
+#### querySelector
+```
+const card = document.querySelector(".card")  //Te coge el primer elemento que tiene como clase card, se una sintaxis de css para este caso
+Más especificidad
+const info = document.querySelector(".premium .info")
 
 
 
