@@ -737,7 +737,7 @@ card.children[1]
 ```
 card.ParentElement / card.parentNode //Se recomienda de nuevo el parentElement, el otro muestra saltos de líneas, espacios...
 ```
-#### Eliminar e insertar elementos del DOM
+#### Eliminar elementos del DOM
 ```
 //Dos formas, borrarlo desde si mismo
 const primerEnlace = querySelector("a")
@@ -746,8 +746,23 @@ primerEnlace.remove()
 //Borrarlo desde el elemento padre
 const navegacion = querySelector("nav")
 navegacion.removeChild(navegacion.children[1])
+```
+#### Insertar elementos del DOM
+```
+//Seleccionamos el sitio donde queremos insertar el elemento
+const navegacion = querySelector("nav")
 
+//Creamos el elemento que queremos insertar
+const enlace = document.createElement("a")
+enlace.textContent = "Enlace nuevo"
+enlace.href = "https://github.com/SimonPatrickReyes/curso_23-24"
+enlace.target="_blank"
 
+//Lo insertamos
+navegacion.appendChild(enlace)
+
+//Insertarlo delante de algún otro elemento
+navegacion.insertBefore(enlace, navegacion.children[1])
 ```
 
   
