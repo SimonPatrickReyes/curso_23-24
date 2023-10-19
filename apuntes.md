@@ -675,6 +675,23 @@ const Empresa2 extends Client{
 }
 }
 ```
+##### 19/10/23
+#### Manipulacion del DOM
+```
+Document Object Model
+
+Para acceder a algun elemento del HTML siempre se usa document, que alberga todo
+Ejemplo: elemento = document.body
+
+getElementsByClassName() // Almacena todos los elementos que contenga una clase, selector antiguo y no recomendado para usar.
+getElementById() // Lo mismo pero con ids, muy usado, solo trae un elemento. Ejemplo: elemento = document.getElementById(footer)
+
+
+
+
+```
+
+
 
 
   
