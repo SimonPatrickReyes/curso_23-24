@@ -692,8 +692,16 @@ const card = document.querySelector(".card")  //Te coge el primer elemento que t
 Más especificidad
 const info = document.querySelector(".premium .info")
 
-
-
+Se puede tambien mostrar todos aquellos que tengan la misma clase
+const card = document.querySelectorAll(".card")
+```
+#### Modificar textos e imagenes con querySelector
+```
+const encabezado = document.querySelector("h1")
+//Como acceder al contenido (3 maneras, devuelven lo mismo, en este caso)
+encabezado.innerHTML //Para sustituir elementos mejor
+encabezado.innerText //Para sustituir contenido mejor, si el elemento tiene visibilidad hidden, este no se mostrará
+encabezado.textContent //Para sustituir contenido mejor, este es el más recomendado
 ```
 
 
