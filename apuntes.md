@@ -764,7 +764,73 @@ navegacion.appendChild(enlace)
 //Insertarlo delante de algún otro elemento
 navegacion.insertBefore(enlace, navegacion.children[1])
 ```
+##### 20/10/2023
+#### Eventos
+```
+document.addEventListener("DOMContentLoaded", ()=>{
+console.log("Se ha disparado el evento")
+}
 
+```
+##### Eventos de teclado
+```
+const busqueda= document.querySelector(".busqueda")
+busqueda.addEventListener("keydown", ()=>{  //Cada vez que presione la tecla
+  console.log("Evento desencadenandose...")
+}
+
+const busqueda= document.querySelector(".busqueda")
+busqueda.addEventListener("copy", ()=>{  //Cada vez que el usuario copia (ctrl+C)
+  console.log("Evento desencadenandose...")
+}
+
+const busqueda= document.querySelector(".busqueda")
+busqueda.addEventListener("paste", ()=>{  //Cada vez que el usuario pega (ctrl+V)
+  console.log("Evento desencadenandose...")
+}
+
+const busqueda= document.querySelector(".busqueda")
+busqueda.addEventListener("input", ()=>{  //Toda interacción con el elemento, menos blur
+  console.log("Evento desencadenandose...")
+}
+
+const busqueda= document.querySelector(".busqueda")
+busqueda.addEventListener("input", (e)=>{  //La e simboliza el evento, y puede acceder a elementos como el target(elemento con el que se esta interactuando), value (te da el valor de lo que este el usuario introduciendo)
+  console.log("Evento desencadenandose...")
+}
+```
+##### Eventos de formularios
+```
+const furmulario = document.querySelector("#formulario")
+
+formulario.addEventListener("submit", (e)=>{
+e.preventDefault() //Previene la acción por defecto
+  console.log("Probando formulario")
+})
+```
+##### Eventos de scroll
+```
+window.addEventListener("scroll", ()=>{
+  const scrollPX= window.scrollY
+  console.log(scrollPX)
+  console.log("scrolling")
+})
+
+window.addEventListener("scroll", ()=>{
+  const premio = document.querySelector(".premium")
+  const posicion = premium.getBoudingClientRect()
+  console.log("posicion")
+
+  if(posicion.top>700){
+  console.log("Llegando al elemento")
+} else {
+  console.log("Te queda")
+}
+})
+
+
+
+```
   
 
 
