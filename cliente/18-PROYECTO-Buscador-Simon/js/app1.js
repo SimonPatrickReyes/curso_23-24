@@ -42,31 +42,38 @@ marca.addEventListener("input", (e) => {
 });
 
 year.addEventListener("input", (e) => {
-  datosBusqueda.year = e.target.value;
+  datosBusqueda.year = parseInt(e.target.value);
+  filtrarCoches();
 });
 
 minimo.addEventListener("input", (e) => {
-  datosBusqueda.minimo = e.target.value;
+  datosBusqueda.minimo = parseInt(e.target.value);
+  filtrarCoches();
 });
 
 maximo.addEventListener("input", (e) => {
-  datosBusqueda.maximo = e.target.value;
+  datosBusqueda.maximo = parseInt(e.target.value);
+  filtrarCoches();
 });
 
 puertas.addEventListener("input", (e) => {
-  datosBusqueda.puertas = e.target.value;
+  datosBusqueda.puertas = parseInt(e.target.value);
+  filtrarCoches();
 });
 
 transmision.addEventListener("input", (e) => {
   datosBusqueda.transmision = e.target.value;
+  filtrarCoches();
 });
 
 color.addEventListener("input", (e) => {
   datosBusqueda.color = e.target.value;
+  filtrarCoches();
 });
 
 //Funciones
 function mostrarCoches(coches) {
+  limpiarHTML();
   coches.forEach((coche) => {
     const cocheHTML = document.createElement("p");
     cocheHTML.innerHTML = `
@@ -77,7 +84,14 @@ function mostrarCoches(coches) {
 }
 
 function filtrarCoches() {
-  const resultado = coches.filter(filtrarMarca);
+  const resultado = coches
+  .filter(filtrarMarca)
+  .filter(filtrarYear)
+  .filter(filtrarMinimo)
+  .filter(filtrarMaximo)
+  .filter(filtrarPuertas)
+  .filter(filtrarTransmision)
+  .filter(filtrarColor)
   mostrarCoches(resultado);
 }
 
@@ -86,4 +100,59 @@ function filtrarMarca(coche) {
     return coche.marca === datosBusqueda.marca;
   }
   return coche;
+}
+
+function filtrarYear(coche) {
+  if (datosBusqueda.year) {
+    return coche.year === datosBusqueda.year;
+  }
+  return coche;
+}
+
+function filtrarYear(coche) {
+  if (datosBusqueda.year) {
+    return coche.year === datosBusqueda.year;
+  }
+  return coche;
+}
+
+function filtrarMinimo(coche) {
+  if (datosBusqueda.minimo) {
+    return coche.precio >=  datosBusqueda.minimo;
+  }
+  return coche;
+}
+
+function filtrarMaximo(coche) {
+  if (datosBusqueda.maximo) {
+    return coche.precio < datosBusqueda.maximo;
+  }
+  return coche;
+}
+
+function filtrarPuertas(coche) {
+  if (datosBusqueda.puertas) {
+    return coche.puertas === datosBusqueda.puertas;
+  }
+  return coche;
+}
+
+function filtrarTransmision(coche) {
+  if (datosBusqueda.transmision) {
+    return coche.transmision === datosBusqueda.transmision;
+  }
+  return coche;
+}
+
+function filtrarColor(coche) {
+  if (datosBusqueda.color) {
+    return coche.color === datosBusqueda.color;
+  }
+  return coche;
+}
+
+function limpiarHTML() {
+  while (contenedor.firstChild) {
+    contenedor.firstChild.remove();
+  }
 }
