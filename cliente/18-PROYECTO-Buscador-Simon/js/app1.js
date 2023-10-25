@@ -85,14 +85,27 @@ function mostrarCoches(coches) {
 
 function filtrarCoches() {
   const resultado = coches
-  .filter(filtrarMarca)
-  .filter(filtrarYear)
-  .filter(filtrarMinimo)
-  .filter(filtrarMaximo)
-  .filter(filtrarPuertas)
-  .filter(filtrarTransmision)
-  .filter(filtrarColor)
-  mostrarCoches(resultado);
+    .filter(filtrarMarca)
+    .filter(filtrarYear)
+    .filter(filtrarMinimo)
+    .filter(filtrarMaximo)
+    .filter(filtrarPuertas)
+    .filter(filtrarTransmision)
+    .filter(filtrarColor);
+
+  if (resultado.length) {
+    mostrarCoches(resultado);
+  } else {
+    noResultado();
+  }
+}
+
+function noResultado() {
+  limpiarHTML();
+  const noResultado = document.createElement("div");
+  noResultado.classList.add("alerta", "error");
+  noResultado.textContent = "No hay resultados disponibles";
+  contenedor.appendChild(noResultado);
 }
 
 function filtrarMarca(coche) {
@@ -118,7 +131,7 @@ function filtrarYear(coche) {
 
 function filtrarMinimo(coche) {
   if (datosBusqueda.minimo) {
-    return coche.precio >=  datosBusqueda.minimo;
+    return coche.precio >= datosBusqueda.minimo;
   }
   return coche;
 }
