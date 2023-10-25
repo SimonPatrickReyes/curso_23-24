@@ -828,6 +828,36 @@ window.addEventListener("scroll", ()=>{
 }
 })
 ```
+##### 25/10/23
+#### LocalStorage y SessionStorage
+```
+//Crear Elementos
+localStorage.setItem("nombre", "Manuel")
+sessionStorage.setItem("nombre2", "Pepe")
+
+const producto = {
+  nombre:"Manuel",
+  nacionalidad:"Española"
+}
+
+const personaString = JSON.stringify(producto)
+localStorage.setItem("listaPersona", producto)
+
+const meses = ["Enero","Febrero","Marzo"]
+localStorage.setItem("meses",JSON.stringify(meses))
+
+//Leer Elementos
+const nombre = localStorage.getItem("nombre")
+
+const productoJSON  = localStorage.getItem("listaPersona")
+JSON.parse(productoJSON)
+
+//Eliminar Elementos
+localStorage.removeItem("nombre")
+
+```
+
+
 
   
 
