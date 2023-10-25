@@ -4,6 +4,8 @@ const listaMensajes = document.querySelector("#lista-mensajes");
 const agregar = document.querySelector("input[type='submit']");
 
 const mensajes = [];
+const mensajesStorage  = localStorage.getItem("mensajes")
+const mensajesJSON = JSON.parse(mensajesStorage)
 
 //Listeners
 agregar.addEventListener("click", guardarMensaje);
@@ -13,8 +15,12 @@ agregar.addEventListener("click", mostrarMensaje);
 function guardarMensaje(e) {
   e.preventDefault();
   mensajes.push(mensaje.value);
-  console.log(mensajes);
+  localStorage.setItem("mensajes",JSON.stringify(mensajes))
+  mostrarMensaje()
 }
+
+
+console.log(mensajesJSON)
 
 function mostrarMensaje() {
   limpiarHTML();
@@ -25,6 +31,7 @@ function mostrarMensaje() {
         `;
     listaMensajes.appendChild(mensajeHTML);
   });
+  
 }
 
 function limpiarHTML() {
