@@ -772,7 +772,7 @@ console.log("Se ha disparado el evento")
 }
 
 ```
-##### Eventos de teclado
+#### Eventos de teclado
 ```
 const busqueda= document.querySelector(".busqueda")
 busqueda.addEventListener("keydown", ()=>{  //Cada vez que presione la tecla
@@ -799,7 +799,7 @@ busqueda.addEventListener("input", (e)=>{  //La e simboliza el evento, y puede a
   console.log("Evento desencadenandose...")
 }
 ```
-##### Eventos de formularios
+#### Eventos de formularios
 ```
 const furmulario = document.querySelector("#formulario")
 
@@ -808,7 +808,7 @@ e.preventDefault() //Previene la acción por defecto
   console.log("Probando formulario")
 })
 ```
-##### Eventos de scroll
+#### Eventos de scroll
 ```
 window.addEventListener("scroll", ()=>{
   const scrollPX= window.scrollY
@@ -827,10 +827,8 @@ window.addEventListener("scroll", ()=>{
   console.log("Te queda")
 }
 })
-
-
-
 ```
+
   
 
 
