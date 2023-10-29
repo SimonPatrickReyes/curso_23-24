@@ -8,14 +8,28 @@ const vaciarCarritoBtn = document.querySelector("#vaciar-carrito")
 //Variables
 let articulosCarrito = [];
 
+
+//Comprobamos si el localStorage esta vacio
+if (localStorage.getItem("cursos") == null) {
+  articulosCarrito = []
+} else {
+  articulosCarrito = JSON.parse(localStorage.getItem("cursos"))
+  console.log(articulosCarrito);
+  carritoHTML()
+};
+
+
 //Listeners
 cargarEventsListeners();
 
 function cargarEventsListeners() {
   listaCursos.addEventListener("click", addCurso)
   carrito.addEventListener("click", eliminarCurso)
-  vaciarCarritoBtn.addEventListener("click", ()=>{
-    articulosCarrito = []
+  vaciarCarritoBtn.addEventListener("click", () => {
+    articulosCarrito = [];
+
+    // En esta ocasion usamos el remove porque queremos eliminar por completo el contenido del carro
+    localStorage.removeItem("cursos");
     limpiarHTML()
   })
 
@@ -32,15 +46,20 @@ function addCurso(e) {
 // Lee la informacion del curso seleccionado
 
 function eliminarCurso(e) {
-    if (e.target.classList.contains("borrar-curso")) {
-        const cursoId = e.target.getAttribute("data-id")
+  if (e.target.classList.contains("borrar-curso")) {
+    const cursoId = e.target.getAttribute("data-id")
 
-        articulosCarrito = articulosCarrito.filter((curso)=>
-            curso.id !== cursoId
-        )
-        carritoHTML(articulosCarrito)
-        
-    }
+    articulosCarrito = articulosCarrito.filter((curso) =>
+      curso.id !== cursoId
+    )
+
+    cursosToString = JSON.stringify(articulosCarrito)
+
+    localStorage.setItem("cursos", cursosToString)
+
+    carritoHTML(articulosCarrito)
+
+  }
 }
 
 function leerDatosCurso(curso) {
@@ -63,13 +82,17 @@ function leerDatosCurso(curso) {
     });
   } else {
     articulosCarrito = [...articulosCarrito, infoCurso];
+
+    //Guardado en localStorage
+    cursosToString = JSON.stringify(articulosCarrito)
+    localStorage.setItem("cursos", cursosToString)
   }
   carritoHTML(articulosCarrito);
 }
 
 function carritoHTML() {
   limpiarHTML();
-
+  console.log(articulosCarrito);
   articulosCarrito.forEach((curso) => {
     const { imagen, titulo, precio, cantidad, id } = curso;
 
